@@ -1,0 +1,24 @@
+#notes
+
+rails s -p $PORT -b $IP
+
+
+Up to 4.1
+
+
+
+
+postgresql
+
+START THE POSTGRESQL SERVICE
+sudo service postgresql start
+
+CONNECT TO THE SERVICE
+sudo sudo -u postgres psql
+
+CREATE A POSTGRESQL DATABASE
+postgres=# create database "groceries";
+
+LIST ALL DATABASES
+sudo sudo -u postgres psql
+postgres=# \list
